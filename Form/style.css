@@ -1,0 +1,93 @@
+label{
+    display: none;
+    font-size: 13px;
+}
+body{
+    padding: 0px !important;
+    margin: 0px;
+    overflow-x: hidden;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f2f5;
+    box-sizing: border-box;
+}
+.container form{
+    width: 350px;
+    box-sizing: border-box;
+    padding: 20px 10px ;
+    background-color: #fff;
+    border-radius: 10px;
+}
+.container form input {
+    width: 100%;
+    margin-top: 5px;
+}
+.container form .input-groups {
+    display: flex;
+    flex-direction: row;
+}
+.container form .name-user,.two-column{
+    display: flex;
+    width: 100% !important;
+}
+.container form .name-user input,.two-column input{
+    width: 90%;
+}
+.two-column input{
+    width:45% !important;
+}
+.container form input{
+    text-align: end;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid black;
+    padding: 3px 10px 3px 0px;
+
+}
+.container form input:focus{
+    outline: none;
+}
+.container form input::placeholder{
+}
+.type-user{
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    margin-top: 10px;
+    align-items: center;
+}
+.type-user label{
+    width: 30px !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+input[type="radio"]{
+    width: 30px !important;
+}
+.date-user{
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 0px;
+    
+}
+input[type="submit"]{
+    width: 80% !important;
+    border-bottom: none !important;
+    background-color: #1877f2;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 25px;
+    border-radius: 5px;
+    margin:10px auto 0px auto !important ;
+}
+.date-user select{
+    font-size: 10px !important;
+}
